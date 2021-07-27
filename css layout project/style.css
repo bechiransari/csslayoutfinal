@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+/*initialisation*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto","sans-serif";
+}
+/*header*/
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+}
+.navbar li{
+    display:inline-block;
+    color:#ababab ;
+    padding: 0px 20px;
+    font-family:Roboto,Arial,sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    
+
+}
+.navbar li:hover{
+    color: #00b39b;
+}
+#about{
+    color:#00b39b ;
+}
+
+.navbar img{
+    height:20%;
+    width:33%;
+}
+
+/*main*/
+
+/*introduction*/
+.introduction {
+/*boxmodel*/
+margin:2% 10%;
+/*flexbox*/
+/*display:flex: */
+/*margin:2% 10%;*/
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.introduction h2{
+    font-size: 2,125rem;
+    color: #00b39b;
+    margin:2% 10%;
+}
+.introduction div{
+    display: flex;
+    justify-content: space-between;
+}
+.introducton p{
+    width:45%;
+    line-height: 1.5;
+}
+.introduction p{
+    margin-right: 20px;
+    margin-left: 20px;
+    box-sizing: inherit;
+    line-height: 1.75;
+}
+/*main*/
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+margin-left: 250px;
+margin-right: 250px;
+}
+.cartes div{
+    width: 25%;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    color:#fff;
+    font-family: 'Work Sans', sans-serif;
+    border: radius 25px;
+    padding: 25px;
+    height: 345px;
+    width: 260px;
+
+}
+h2{
+margin-bottom: 20px;
+}
+.patients{
+padding:20px;
+border-radius: 10px;
+justify-content: space-between;
+    background-color:#00b39b ;
+
+}
+#country{
+    margin-top: 80px;
+    background-color:#00b39b ;
+    color:#fff ;
+    font-size: 18px;
+    
+   
+}
+
+.doctors{
+padding:20px;
+border-radius: 10px;
+justify-content: space-between;
+    background-color:#3d83df ;
+
+}
+#country2{
+    margin-top: 80px;
+    background-color:#3d83df ;
+    color:#fff ;
+    font-size: 18px;
+    
+   
+}
+
+.clinics{
+padding:20px;
+border-radius: 10px;
+justify-content: space-between;
+    background-color:#1b2734;
+
+}
+#country3{
+    margin-top: 80px;
+    background-color:#1b2734 ;
+    color:#fff ;
+    font-size: 18px;
+    
+   
+}
+.local-culture{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 60px;
+}
+.local-culture h2{
+    font-size: 26px;
+    color: #00B39B;
+    display: flex;
+    align-items: center;
+  
+}
+.logos *{
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    fill:hsla(0,0%,67%,.7);
+    
+}
+.logos *:hover{
+    cursor: pointer;
+     fill: #00bfa5;
+    }
+    .biggest-platform{
+       display: flex;
+         
+         
+    margin-top: 60px;
+    
+    background-color: #E5FAF8;
+
+    }
+    .grid{
+         display: flex;
+    margin-top: 80px;
+        
+    margin-left: 270px;
+    margin-right: 270px;
+    background: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    
+    }
+    
+
+h2{
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.positive-points div{
+    height: 250px;
+    width: 500px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 2%;
+   
+
+  }
+  .firstrow{
+      display: flex;
+  }
+  .secondrow{
+
+      display: flex;
+  }
+  .firstrow div{
+box-sizing: border-box;
+      background-color: white;
+      
+      text-align: center;
+  }
+  .secondrow div{
+      background-color: white;
+      
+      text-align: center;
+  }
+  .firstrow div h6{
+     font-size: 1.5em;
+     font-weight: 400;
+     color: #00B39B;
+  }
+   .firstrow div *{
+       margin-top: 20px;
+       margin-bottom: 20;
+margin-left: 10px;
+margin-right: 10px;   }
+.secondrow div h6{
+     font-size: 1.5em;
+     font-weight: 400;
+     color: #00B39B;
+  }
+   .secondrow div *{
+       margin-top: 20px;
+       margin-bottom: 20;
+margin-left: 10px;
+margin-right: 10px;   }
+.firstrow div p{
+    font-size: .8125em;
+    line-height: 1.3;
+}
+.secondrow div p{
+    font-size: .8125em;
+    line-height: 1.3;
+}
+.leader{
+    margin-top: 50px;
+}
+.appointment{
+margin-top: 20px;
+}
+.unique{
+margin-top: 50px;
+}
+.activdoc{
+margin-top: 20px;
+}
+.count{
+   
+  
+   
+
+  
+}
+.countrycard{
+    /*box model*/
+    margin:4% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.countrycard div{
+    margin-bottom:3%;
+    
+}
+.countrycard div div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+    color: #747474;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+}
+.countrycard div div button{
+    background-color: #3D83DF;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em
+    text-align: center;
+
+}
+.countrycard div:hover{
+box-shadow: 10px 10px 5px #aaaaaa;
+
